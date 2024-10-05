@@ -1,0 +1,72 @@
+/* *{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+#ui{
+ height:100vh;
+ width:100%;
+  background-image:url('https://as1.ftcdn.net/v2/jpg/02/39/69/44/1000_F_239694467_ud7KqD4KKGsZBIurYOcdhyjD7wK9jj8T.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+}
+#clock{
+  color:white;
+  background-color: black;
+  height:50vh;
+  width:50vh;
+  border-radius: 50%;
+  position: absolute;
+  margin-left: 90vh;
+  margin-top: 25vh;
+}
+#time{
+  position: relative;
+  padding-top: 22vh;
+  padding-left: 7vh;
+font-size: 7vh;
+color:#ebffff
+} */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#ui {
+  height: 100vh;
+  width: 100%;
+  background-image: url('https://as1.ftcdn.net/v2/jpg/02/39/69/44/1000_F_239694467_ud7KqD4KKGsZBIurYOcdhyjD7wK9jj8T.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex; /* Use flexbox for centering */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+#clock {
+  color: white;
+  background-color: rgba(0, 0, 0); /* Slightly transparent black background */
+  height: 50vh;
+  width: 50vh;
+  border-radius: 50%;
+  display: flex; /* Use flexbox for alignment */
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  /* box-shadow: 0 0 20px rgba(0, 255, 255, 0.8);  */
+}
+
+#time {
+  font-size: 8.8vh;
+  color: #ebffff; /* Light blue color */
+  text-align: center; /* Center the text */
+  text-shadow: 
+    0 0 5px rgba(0, 255, 255, 0.8), /* Light blue outer glow */
+    0 0 10px rgba(0, 255, 255, 0.6), /* Medium blue glow */
+    0 0 15px rgba(0, 255, 255, 0.4); /* Dimmer blue glow */
+}
+
+
